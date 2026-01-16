@@ -1,21 +1,28 @@
 {
   "participants": {
-    "purple_agent": "baseline-agent"
+    "purple": "baseline-agent"
   },
   "results": [
     {
-      "total_cases": 10,
-      "passed": 0,
-      "failed": 10,
-      "pass_rate": 0.0,
-      "average_score": 0.0,
-      "dimension_stats": [
-        {"key": "temporal_reasoning", "pass_rate": 0.0},
-        {"key": "multi_device_correlation", "pass_rate": 0.0},
-        {"key": "user_preference_tracking", "pass_rate": 0.0},
-        {"key": "anomaly_detection", "pass_rate": 0.0},
-        {"key": "long_term_pattern", "pass_rate": 0.0}
-      ]
+      "summary": {
+        "total_cases": 10,
+        "passed": 0,
+        "failed": 10,
+        "pass_rate": 0.0,
+        "total_score": 0.0,
+        "max_score": 10.0,
+        "score_rate": 0.0
+      },
+      "dimension_stats": {
+        "temporal_reasoning": {"total": 2, "passed": 0, "failed": 2, "pass_rate": 0.0, "weakness_score": 1.0},
+        "multi_device_correlation": {"total": 2, "passed": 0, "failed": 2, "pass_rate": 0.0, "weakness_score": 1.0},
+        "user_preference_tracking": {"total": 2, "passed": 0, "failed": 2, "pass_rate": 0.0, "weakness_score": 1.0},
+        "anomaly_detection": {"total": 2, "passed": 0, "failed": 2, "pass_rate": 0.0, "weakness_score": 1.0},
+        "long_term_pattern": {"total": 2, "passed": 0, "failed": 2, "pass_rate": 0.0, "weakness_score": 1.0}
+      },
+      "radar_data": {},
+      "boundaries": {},
+      "round_history": []
     }
   ]
 }
