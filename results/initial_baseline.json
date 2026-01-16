@@ -5,16 +5,16 @@
   "results": [
     {
       "total_cases": 10,
-      "passed_cases": 0,
-      "failed_cases": 10,
+      "passed": 0,
+      "failed": 10,
       "pass_rate": 0.0,
       "average_score": 0.0,
       "dimension_stats": {
-        "temporal_reasoning": {"total": 2, "passed": 0, "accuracy": 0.0},
-        "multi_device_correlation": {"total": 2, "passed": 0, "accuracy": 0.0},
-        "user_preference_tracking": {"total": 2, "passed": 0, "accuracy": 0.0},
-        "anomaly_detection": {"total": 2, "passed": 0, "accuracy": 0.0},
-        "long_term_pattern": {"total": 2, "passed": 0, "accuracy": 0.0}
+        "temporal_reasoning": {"total": 2, "passed": 0, "pass_rate": 0.0},
+        "multi_device_correlation": {"total": 2, "passed": 0, "pass_rate": 0.0},
+        "user_preference_tracking": {"total": 2, "passed": 0, "pass_rate": 0.0},
+        "anomaly_detection": {"total": 2, "passed": 0, "pass_rate": 0.0},
+        "long_term_pattern": {"total": 2, "passed": 0, "pass_rate": 0.0}
       }
     }
   ]
