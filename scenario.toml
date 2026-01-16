@@ -1,16 +1,12 @@
 [green_agent]
-agentbeats_id = ""
-env = { API_KEY = "${GITHUB_SECRET_NAME}", LOG_LEVEL = "INFO" }
+agentbeats_id = "019bbcd1-edb3-7352-a133-4e2471a7b3d1"
+env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}" }
 
 [[participants]]
-agentbeats_id = ""
-name = "role_1_name"
-env = {}
-
-[[participants]]
-agentbeats_id = ""
-name = "role_2_name"
-env = {}
+agentbeats_id = "019bbc95-3273-7400-b85c-9cc4fccaf409"
+name = "purple_agent"
+env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}" }
 
 [config]
-# Add your assessment config here
+mode = "full"
+agent_type = "a2a"
