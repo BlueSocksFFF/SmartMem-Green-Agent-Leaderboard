@@ -1,28 +1,23 @@
 {
-  "assessment_id": "baseline-001",
-  "timestamp": "2026-01-16T00:00:00Z",
-  "green_agent": {
-    "id": "019bbcd1-edb3-7352-a133-4e2471a7b3d1",
-    "name": "SmartMem Green Agent"
+  "participants": {
+    "purple": "baseline-agent"
   },
-  "participants": [
+  "results": [
     {
-      "name": "baseline",
-      "agent_id": "baseline",
-      "role": "purple"
+      "summary": {
+        "total_cases": 10,
+        "passed_cases": 0,
+        "failed_cases": 10,
+        "pass_rate": 0.0,
+        "average_score": 0.0
+      },
+      "dimension_stats": {
+        "temporal_reasoning": {"total": 2, "passed": 0, "accuracy": 0.0},
+        "multi_device_correlation": {"total": 2, "passed": 0, "accuracy": 0.0},
+        "user_preference_tracking": {"total": 2, "passed": 0, "accuracy": 0.0},
+        "anomaly_detection": {"total": 2, "passed": 0, "accuracy": 0.0},
+        "long_term_pattern": {"total": 2, "passed": 0, "accuracy": 0.0}
+      }
     }
-  ],
-  "results": {
-    "overall_score": 0.0,
-    "total_cases": 0,
-    "passed_cases": 0,
-    "failed_cases": 0,
-    "metrics": {
-      "accuracy": 0.0,
-      "memory_retention": 0.0,
-      "context_handling": 0.0
-    }
-  },
-  "status": "baseline",
-  "notes": "Initial baseline entry for leaderboard setup"
+  ]
 }
