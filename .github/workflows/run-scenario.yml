@@ -4,12 +4,18 @@ on:
   push:
     paths:
       - 'scenario.toml'
-  workflow_dispatch:  # Allow manual trigger
+  workflow_dispatch:
+    inputs:
+      debug:
+        description: 'Enable debug mode'
+        required: false
+        default: 'false'
+        type: boolean
 
 jobs:
   run:
     runs-on: ubuntu-latest
-    # Allow on forks, non-main branches, or manual dispatch
+    # Run on forks, non-main branches, or manual dispatch
     if: github.event.repository.fork == true || github.ref != 'refs/heads/main' || github.event_name == 'workflow_dispatch'
     permissions:
       contents: write
