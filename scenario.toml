@@ -11,3 +11,4 @@ env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", OPENAI_BASE_URL = "https://api2.ai
 max_test_rounds = 5
 targeted_per_weakness = 3
 convergence_threshold = 0.05
+weakness_num = 1
