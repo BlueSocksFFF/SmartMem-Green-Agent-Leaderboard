@@ -9,13 +9,13 @@
       "failed": 10,
       "pass_rate": 0.0,
       "average_score": 0.0,
-      "dimension_stats": {
-        "temporal_reasoning": {"total": 2, "passed": 0, "pass_rate": 0.0},
-        "multi_device_correlation": {"total": 2, "passed": 0, "pass_rate": 0.0},
-        "user_preference_tracking": {"total": 2, "passed": 0, "pass_rate": 0.0},
-        "anomaly_detection": {"total": 2, "passed": 0, "pass_rate": 0.0},
-        "long_term_pattern": {"total": 2, "passed": 0, "pass_rate": 0.0}
-      }
+      "dimension_stats": [
+        {"key": "temporal_reasoning", "pass_rate": 0.0},
+        {"key": "multi_device_correlation", "pass_rate": 0.0},
+        {"key": "user_preference_tracking", "pass_rate": 0.0},
+        {"key": "anomaly_detection", "pass_rate": 0.0},
+        {"key": "long_term_pattern", "pass_rate": 0.0}
+      ]
     }
   ]
 }
