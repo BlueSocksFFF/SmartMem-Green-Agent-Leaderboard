@@ -1,0 +1,11 @@
+[green_agent]
+endpoint = "http://127.0.0.1:9010"
+
+[[participants]]
+name = "purple"
+endpoint = "http://127.0.0.1:9011"
+
+[config]
+max_test_rounds = 2
+targeted_per_weakness = 2
+convergence_threshold = 0.05
