@@ -1,0 +1,17 @@
+{
+  "image_digests": {
+    "green-agent": "ghcr.io/ziiiiiiiiyan/smartmem-green-agent@sha256:4c7e04ea490b8164d63354c64f5e65297db70e4e319387a225c7526d56198b3e",
+    "purple": "ghcr.io/zhang-xiaojing7/smartmem-purple-agent@sha256:15a2651af37cfa8326203ac605ec9ac46c4b48a114c9c0ede736bab8a3314fc5",
+    "agentbeats-client": "ghcr.io/agentbeats/agentbeats-client@sha256:13dfe3ef4e583a80e7ce2fe3becd0ce3b879841368a7f4fa40b6ebbabeeb014e"
+  },
+  "timestamp": "2026-01-19T07:03:53Z",
+  "github_actions": {
+    "run_url": "https://github.com/BlueSocksFFF/SmartMem-Green-Agent-Leaderboard/actions/runs/21128240902",
+    "run_logs_url": "https://api.github.com/repos/BlueSocksFFF/SmartMem-Green-Agent-Leaderboard/actions/runs/21128240902/logs",
+    "ref": "refs/heads/main",
+    "sha": "7fbb03fc159eeb260b84fbc66403ee02b84b60bc",
+    "repository_url": "https://github.com/BlueSocksFFF/SmartMem-Green-Agent-Leaderboard",
+    "workflow_ref": "BlueSocksFFF/SmartMem-Green-Agent-Leaderboard/.github/workflows/run-scenario.yml@refs/heads/main",
+    "workflow_sha": "7fbb03fc159eeb260b84fbc66403ee02b84b60bc"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "participants": {
+    "purple": "019bbc95-3273-7400-b85c-9cc4fccaf409"
+  },
+  "results": [
+    {
+      "summary": {
+        "total_cases": 0,
+        "passed": 0,
+        "failed": 0,
+        "pass_rate": 0.0,
+        "total_score": 0,
+        "max_score": 0,
+        "score_rate": 0.0
+      },
+      "dimension_stats": {
+        "precision": {
+          "total": 0,
+          "passed": 0,
+          "failed": 0,
+          "pass_rate": 0.0,
+          "weakness_score": 1.0
+        },
+        "ambiguous": {
+          "total": 0,
+          "passed": 0,
+          "failed": 0,
+          "pass_rate": 0.0,
+          "weakness_score": 1.0
+        },
+        "conflict": {
+          "total": 0,
+          "passed": 0,
+          "failed": 0,
+          "pass_rate": 0.0,
+          "weakness_score": 1.0
+        },
+        "memory": {
+          "total": 0,
+          "passed": 0,
+          "failed": 0,
+          "pass_rate": 0.0,
+          "weakness_score": 1.0
+        },
+        "noise": {
+          "total": 0,
+          "passed": 0,
+          "failed": 0,
+          "pass_rate": 0.0,
+          "weakness_score": 1.0
+        }
+      },
+      "radar_data": {
+        "dimensions": {
+          "precision": 50,
+          "ambiguous": 50,
+          "conflict": 50,
+          "memory": 50,
+          "noise": 50
+        }
+      },
+      "boundaries": {},
+      "round_history": [
+        {
+          "round": 1,
+          "focus": "General Pyramid",
+          "total_cases": 0,
+          "passed": 0,
+          "pass_rate": 0.0
+        }
+      ]
+    }
+  ]
+}
