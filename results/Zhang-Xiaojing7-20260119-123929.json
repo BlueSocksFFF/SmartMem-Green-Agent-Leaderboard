@@ -1,0 +1,80 @@
+{
+  "participants": {
+    "purple": "019bbc95-3273-7400-b85c-9cc4fccaf409"
+  },
+  "results": [
+    {
+      "summary": {
+        "total_cases": 30,
+        "passed": 0,
+        "failed": 30,
+        "pass_rate": 0.0,
+        "total_score": 0.0,
+        "max_score": 81.0,
+        "score_rate": 0.0
+      },
+      "dimension_stats": {
+        "precision": {
+          "total": 6,
+          "passed": 0,
+          "failed": 6,
+          "pass_rate": 0.0,
+          "weakness_score": 1.0
+        },
+        "ambiguous": {
+          "total": 6,
+          "passed": 0,
+          "failed": 6,
+          "pass_rate": 0.0,
+          "weakness_score": 1.0
+        },
+        "conflict": {
+          "total": 6,
+          "passed": 0,
+          "failed": 6,
+          "pass_rate": 0.0,
+          "weakness_score": 1.0
+        },
+        "memory": {
+          "total": 6,
+          "passed": 0,
+          "failed": 6,
+          "pass_rate": 0.0,
+          "weakness_score": 1.0
+        },
+        "noise": {
+          "total": 6,
+          "passed": 0,
+          "failed": 6,
+          "pass_rate": 0.0,
+          "weakness_score": 1.0
+        }
+      },
+      "radar_data": {
+        "dimensions": {
+          "precision": 0.0,
+          "ambiguous": 0.0,
+          "conflict": 0.0,
+          "memory": 0.0,
+          "noise": 0.0
+        }
+      },
+      "boundaries": {
+        "precision": "easy",
+        "ambiguous": "easy",
+        "conflict": "easy",
+        "memory": "easy",
+        "noise": "easy"
+      },
+      "round_history": [
+        {
+          "round": 1,
+          "focus": "General Pyramid",
+          "total_cases": 30,
+          "passed": 0,
+          "pass_rate": 0.0
+        }
+      ]
+    }
+  ]
+}
