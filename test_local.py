@@ -17,7 +17,8 @@ async def send_eval_request():
             "max_test_rounds": 1,
             "targeted_per_weakness": 1,
             "convergence_threshold": 0.05,
-            "weakness_num": 1
+            "weakness_num": 1,
+            "max_turns": 5  # Limit to 5 turns for quick testing
         }
     }
     
