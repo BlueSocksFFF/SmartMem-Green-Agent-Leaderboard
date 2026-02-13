@@ -1,0 +1,14 @@
+[green_agent]
+agentbeats_id = "019bbcd1-edb3-7352-a133-4e2471a7b3d1"
+env = { OPENAI_API_KEY = "sk-m02caQJQtK6MD8EwjDJVzfulTgzL1FNDBG9OUuV4z9JTDaNi", OPENAI_BASE_URL = "https://api2.aigcbest.top/v1", MODEL_NAME = "gpt-4o" }
+
+[[participants]]
+image = "smartmem-purple-agent-zeroshot:latest"
+name = "purple-zeroshot"
+env = { OPENAI_API_KEY = "sk-qTtMQDgex7oeRvB9wLtqRiO9CZWnTWcMDbXUC8MCcLFCJr8O", OPENAI_BASE_URL = "https://api2.aigcbest.top/v1", MODEL_NAME = "gpt-4o" }
+
+[config]
+max_test_rounds = 5
+targeted_per_weakness = 3
+convergence_threshold = 0.05
+weakness_num = 1
